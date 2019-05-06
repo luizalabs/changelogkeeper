@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-$ npm install --save-dev changelogkeeper
+$ npm install --save-dev @luizalabs/changelogkeeper
 ```
 
 ## Usage
