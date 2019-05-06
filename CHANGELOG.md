@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Move to luizalabs npm org
+
 ## [1.1.2] - 2019-05-06
+
+### Changed
+
+- Move to luizalabs npm org
 
 ## [1.1.1] - 2019-05-04
 
