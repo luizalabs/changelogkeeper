@@ -1,5 +1,5 @@
 {
-  "name": "changelogkeeper",
+  "name": "@luizalabs/changelogkeeper",
   "version": "1.1.1",
   "scripts": {
     "pretest": "eslint .",
@@ -13,12 +13,8 @@
     "postversion": "changelogkeeper && npm run commitChangelog"
   },
   "description": "Write changelog using keepachangelog conventions",
-  "homepage": "https://github.com/codexico/changelogkeeper",
-  "author": {
-    "name": "Francisco Kahil",
-    "email": "codexico@gmail.com",
-    "url": ""
-  },
+  "homepage": "https://github.com/luizalabs/changelogkeeper",
+  "author": "Francisco Kahil <codexico@gmail.com>",
   "files": [
     "lib"
   ],
@@ -73,7 +69,10 @@
       "prettier"
     ]
   },
-  "repository": "codexico/changelogkeeper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizalabs/changelogkeeper.git"
+  },
   "jest": {
     "testEnvironment": "node",
     "collectCoverage": true,
@@ -83,5 +82,11 @@
       "text-summary"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizalabs/changelogkeeper/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  }
 }
